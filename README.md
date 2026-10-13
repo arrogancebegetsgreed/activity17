@@ -15,27 +15,32 @@ User value is set by the product owner: 3 = high, 2 = medium, 1 = low. "Depends 
 Sprint 1
 | US1 | As a student, I want to log in with my university account so that I don't need another password. | 3 | — |
 | US2 | As a student, I want to see which rooms are free right now so that I can grab one quickly. | 3 | — |
-Sprint 1 : 5 Story Points
+
+Sprint 1 : 5 (7+?) Story Points
 
 Sprint 2
 | US3 | As a student, I want to book a room for a specific time slot so that my group has a guaranteed space. | 3 | US1, US2 |
 | US6 | As a student, I want to filter rooms by size and equipment (screen, whiteboard) so that I find a room that fits my group. | 2 | US2 |
-Sprint 2 : 8 Story Points
+
+Sprint 2 : 7 Story Points
 
 Sprint 3
 | US4 | As a student, I want to cancel or change my booking so that the room is freed for others. | 2 | US3 |
 | US5 | As a student, I want a reminder 15 minutes before my booking so that I don't miss it. | 2 | US3 |
-Sprint 3: 8 Story Points
+
+Sprint 3: 9 Story Points
 
 Sprint 4
 | US7 | As a student, I want to invite group members to my booking so that everyone gets the time and room. | 2 | US3 |
 | US8 | As a librarian, I want a weekly room-usage report so that I can plan staffing and spot no-shows. | 1 | US3 |
-Sprint 4: 9 Story Points
+
+Sprint 4: 10 Story Points
 
 Sprint 5
 | US9 | As a student, I want to rate a room after using it so that the library knows which rooms need attention. | 1 | US3 |
 | US10 | As a student, I want a dark mode so that the app is easier on my eyes at night. | 1 | — |
-Sprint 5: 5 Story Points
+
+Sprint 5: 7 Story Points (5-?)
 
 # User Stories Scoring
 
@@ -51,17 +56,17 @@ Working together, score each story on effort, then combines effort with user val
 
 | ID | Short name | User value | Story points | Priority score | Rank |
 | --- | --- | --- | --- | --- | --- |
-| US1 | University login | 3 | 2 | 3/2 | 1 |
-| US2 | See free rooms | 3 | 3 | 1 | 2 |
-| US3 | Book a time slot | 3 | 4 | 3/4 |  |
-| US4 | Cancel / change booking | 2 | 5 | 2/5 |  |
-| US5 | Booking reminder | 2 | 3 | 2/3 |  |
-| US6 | Filter rooms | 2 | 4 | 1/2 |  |
-| US7 | Invite group members | 2 | 4 | 1/2 |  |
-| US8 | Usage report | 1 | 5 | 1/5 |  |
-| US9 | Rate a room | 1 | 3 | 1/3 |  |
-| US10 | Dark mode | 1 | 2 | 1/2 |  |
-| **Total** |  | 35 |  |  |  |
+| US1 | University login | 3 | 3 | 1 | 1 |
+| US2 | See free rooms | 3 | 2 | 3/2 | 2 |
+| US3 | Book a time slot | 3 | 4 | 3/4 | 3 |
+| US4 | Cancel / change booking | 2 | 4 | 2/4 | 5 |
+| US5 | Booking reminder | 2 | 5 | 2/5 | 6 |
+| US6 | Filter rooms | 2 | 3 | 1/2 | 4 |
+| US7 | Invite group members | 2 | 5 | 2/5 | 7 |
+| US8 | Usage report | 1 | 5 | 1/5 | 8 |
+| US9 | Rate a room | 1 | 4 | 1/4 | 10 |
+| US10 | Dark mode | 1 | 3 | 1/3 | 9 |
+| **Total** | 20 | 38 | x | x | x |
 
 # Sprint Planning
 
@@ -69,8 +74,8 @@ Place each user story into 5 sprint following these rules:
 
 * Capacity: no sprint may exceed 10 story points. Y
 * Dependencies: a story can only go in a sprint after the sprint holding the story it depends on. Y
-* Priority: within those limits, higher-ranked stories go earlier.
-* Overflow: if your total is over 50 points, decide which low-value stories to drop and be ready to justify it.
+* Priority: within those limits, higher-ranked stories go earlier. y/n
+* Overflow: if your total is over 50 points, decide which low-value stories to drop and be ready to justify it. Y
 
 # Burndown Chart
 
